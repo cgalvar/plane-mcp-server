@@ -78,6 +78,9 @@ NEEDS_FIXTURE: set[tuple[str, str]] = {
     ("workitem_attachment", "read"),
     ("workitem_attachment", "download_url"),
     ("workitem_attachment", "upload_from_url"),
+    ("github", "list_pulls"),
+    ("github", "read_diff"),
+    ("github", "comment"),
 }
 
 
